@@ -2,9 +2,9 @@
 
 This project was created by Madeleinel and Eleanombre as a pair-programming exercise.
 
-+ [Languages used](#languages-used-1)
-+ [Ping Pong Programming](#what-is-ping-pong-programming?-1)
-+ [Test-driven development](#test-driven-development-1)
++ [Languages used](#languages-used)
++ [Ping Pong Programming](#what-is-ping-pong-programming?)
++ [Test-driven development](#test-driven-development)
 
 ## Languages used:
 
@@ -55,3 +55,8 @@ A pair (A and B) are working on the same project
 * [Ward Cunningham's Wiki article on 3P programming](http://wiki.c2.com/?PairProgrammingPingPongPattern) (2011)
 * [Dave Hoover's Agile Connection article](https://www.agileconnection.com/article/ping-pong-programming-enhance-your-tdd-and-pair-programming-practices?page=0%2C0) (2005)
 
+
+## Progress:
+
++ Have a box for the time, and three buttons; start, stop and reset
++ Display numbers within .time-container, using JS
