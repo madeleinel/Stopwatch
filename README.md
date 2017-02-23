@@ -58,6 +58,8 @@ A pair (A and B) are working on the same project
 
 ## Progress:
 
+#### Completed steps:
+
 + Have a box for the time, and three buttons; start, stop and reset
 + Display numbers within .time-container, using JS
 + Create js function to make the time increase (seconds only)
@@ -67,6 +69,9 @@ A pair (A and B) are working on the same project
 + Make the Stop button work
 + Make the Reset button work
   + Fix startButton function so that it doesn't increase the renewal time each time the startButton is clicked
+
+#### Next step:
+See repo issues for more details.
 + Style the stopwatch
   + Structure: Center the stopwatch, align the buttons
   + Design: Design the look and colors of the clock and the buttons
