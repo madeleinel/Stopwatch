@@ -18,12 +18,14 @@ function numberFormat(a) {
   }
 }
 
+function increaseTime() {
+    seconds ++
+    console.log(seconds);
 
+  }
 
-
-
-
-
+// increaseTime();
+setInterval(increaseTime, 1000);
 
 // Setting up the buttons
 
