@@ -1,6 +1,8 @@
 # What is Ping Pong Programming?
 (other than a tongue twister...)
 
+![An image of extreme ping pong](http://www.asianreporter.com/film/2007/24-p20-Ping%20Pong.jpg)
+
 Ping Pong Programming (P3 for short) is a programming technique which combines Test-driven development (TDD) and pair programming.
 
 ## Key features:
