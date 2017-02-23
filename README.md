@@ -64,5 +64,9 @@ A pair (A and B) are working on the same project
 + Display time increase within .time-container (seconds only)
 + Set up js function to translate 60s = 1min & 60min = 1hr
 + Link increaseTime() to the Start button; so clicking the Start button will start increasing the time
-+ Create function to make the Stop button work
-+ 
++ Make the Stop button work
++ Make the Reset button work
+  + Fix startButton function so that it doesn't increase the renewal time each time the startButton is clicked
++ Style the stopwatch
+  + Structure: Center the stopwatch, align the buttons
+  + Design: Design the look and colors of the clock and the buttons
