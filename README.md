@@ -3,7 +3,7 @@
 This project was created by Madeleinel and Eleanombre as a pair-programming exercise.
 
 + [Languages used](#languages-used)
-+ [Ping Pong Programming](#what-is-ping-pong-programming?)
++ [Ping Pong Programming](#ping-pong-programming)
 + [Test-driven development](#test-driven-development)
 
 ## Languages used:
