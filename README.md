@@ -62,3 +62,6 @@ A pair (A and B) are working on the same project
 + Display numbers within .time-container, using JS
 + Create js function to make the time increase (seconds only)
 + Display time increase within .time-container (seconds only)
++ Set up js function to translate 60s = 1min & 60min = 1hr
++ Link increaseTime() to the Start button; so clicking the Start button will start increasing the time
++ Create function to make the Stop button work
