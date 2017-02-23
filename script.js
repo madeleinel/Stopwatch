@@ -21,7 +21,6 @@ function numberFormat(a) {
 }
 
 function increaseTime() {
-
     seconds ++;
 
     if (seconds == 60) {
