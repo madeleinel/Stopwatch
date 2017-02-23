@@ -1,7 +1,7 @@
 
 # Stopwatch
 
-This project was created by Madeleinel and Eleanombre.
+This project was created by Madeleinel and Eleanombre as a pair-programming exercise.
 
 ## Languages used:
 
