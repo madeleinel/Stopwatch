@@ -6,9 +6,7 @@ let hours = 10;
 let minutes = 0;
 let seconds = 0;
 
-hourContainer.textContent = numberFormat(hours);
-minuteContainer.textContent = numberFormat(minutes);
-secondContainer.textContent = numberFormat(seconds);
+setTime();
 
 function numberFormat(a) {
   if (a >= 10) {
@@ -20,11 +18,15 @@ function numberFormat(a) {
 
 function increaseTime() {
     seconds ++
-    console.log(seconds);
-
+    setTime();
   }
 
-// increaseTime();
+  function setTime() {
+    hourContainer.textContent = numberFormat(hours);
+    minuteContainer.textContent = numberFormat(minutes);
+    secondContainer.textContent = numberFormat(seconds);
+  }
+
 setInterval(increaseTime, 1000);
 
 // Setting up the buttons
