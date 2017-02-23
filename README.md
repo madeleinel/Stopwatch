@@ -60,3 +60,5 @@ A pair (A and B) are working on the same project
 
 + Have a box for the time, and three buttons; start, stop and reset
 + Display numbers within .time-container, using JS
++ Create js function to make the time increase (seconds only)
++ Display time increase within .time-container (seconds only)
