@@ -2,7 +2,7 @@ const hourContainer = document.getElementById("hours");
 const minuteContainer = document.getElementById("minutes");
 const secondContainer = document.getElementById("seconds");
 
-let hours = 10;
+let hours = 0;
 let minutes = 0;
 let seconds = 0;
 
@@ -17,7 +17,17 @@ function numberFormat(a) {
 }
 
 function increaseTime() {
-    seconds ++
+
+    seconds ++;
+    if (seconds == 60) {
+      seconds = 0;
+      minutes ++;
+    }
+
+    if ( minutes == 60 ) {
+      minutes = 0;
+      hours ++;
+    }
     setTime();
   }
 
