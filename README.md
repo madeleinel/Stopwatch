@@ -3,8 +3,9 @@
 This project was created by Madeleinel and Eleanombre as a pair-programming exercise.
 
 + [Languages used](#languages-used)
-+ [Ping Pong Programming](#what-is-ping-pong-programming?)
 + [Test-driven development](#test-driven-development)
++ [Ping Pong Programming](#ping-pong-programming)
++ [Project progress](#progress)
 
 ## Languages used:
 
@@ -58,7 +59,7 @@ A pair (A and B) are working on the same project
 
 ## Progress:
 
-#### Completed steps:
+### Completed steps:
 
 + Have a box for the time, and three buttons; start, stop and reset
 + Display numbers within .time-container, using JS
@@ -70,8 +71,9 @@ A pair (A and B) are working on the same project
 + Make the Reset button work
   + Fix startButton function so that it doesn't increase the renewal time each time the startButton is clicked
 
-#### Next step:
-See repo issues for more details.
+### Next step:
+(See repo issues for more details)
+
 + Style the stopwatch
   + Structure: Center the stopwatch, align the buttons
   + Design: Design the look and colors of the clock and the buttons
