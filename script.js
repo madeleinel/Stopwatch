@@ -5,10 +5,12 @@ const secondContainer = document.getElementById("seconds");
 const startButton = document.getElementById("start");
 const stopButton = document.getElementById("stop");
 const resetButton = document.getElementById("reset");
+setInterval(increaseTime, 1000);
 
 let hours = 0;
 let minutes = 0;
 let seconds = 0;
+let timeBoolean;
 
 setTime();
 
@@ -21,18 +23,20 @@ function numberFormat(a) {
 }
 
 function increaseTime() {
-    seconds ++;
+    if (timeBoolean) {
+      seconds ++;
+      console.log(seconds);
+      if (seconds == 60) {
+        seconds = 0;
+        minutes ++;
+      }
 
-    if (seconds == 60) {
-      seconds = 0;
-      minutes ++;
+      if ( minutes == 60) {
+        minutes = 0;
+        hours ++;
+      }
+      setTime();
     }
-
-    if ( minutes == 60 ) {
-      minutes = 0;
-      hours ++;
-    }
-    setTime();
   }
 
   function setTime() {
@@ -42,5 +46,15 @@ function increaseTime() {
   }
 
 startButton.addEventListener('click', function() {
-  setInterval(increaseTime, 1000);
+  timeBoolean = true;
+});
+stopButton.addEventListener('click', function() {
+  timeBoolean = false;
+});
+resetButton.addEventListener('click', function(){
+  timeBoolean = false;
+  seconds = 0;
+  minutes = 0;
+  hours = 0;
+  setTime();
 });
